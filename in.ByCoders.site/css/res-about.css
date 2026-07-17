@@ -1,0 +1,52 @@
+@media (max-width: 700px) {
+    .about-more h3{
+        font-size: 2.6rem;
+    }
+
+    .about-more-para-flex p{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 521px) {
+    .about-more h3{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 2.6rem;
+    }
+
+    .about-more-para-flex{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+      }
+
+      #para-flex-first {
+        padding-left: 0rem;
+      }
+
+      
+.para-sec-about{
+    width: 100%;
+    height: fit-content;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .para-sec-about p{
+    margin-right: 0rem;
+  }
+      
+}
+

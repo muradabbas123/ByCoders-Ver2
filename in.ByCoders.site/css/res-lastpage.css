@@ -1,0 +1,32 @@
+@media (max-width:1443px) {
+    .lastpage{
+        height: 100%;
+        gap: 5rem;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media(max-width: 502px){
+
+    .lastpage h1{
+        font-size: 2.1rem;
+        /* width: 100%; */
+    }
+    .lastpage h4{
+        /* width: 100%; */
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 333px){
+    .lastpage h4{
+        width: 50%;
+    }
+}
+
+@media(max-width: 268px){
+    .lastpage h1{
+        font-size: 1.9rem;
+    }
+}

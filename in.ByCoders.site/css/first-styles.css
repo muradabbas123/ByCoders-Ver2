@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 1.4rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #111;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #4e4949;
+  border-radius: 20rem;
+  border: 0.5rem solid transparent;
+  background-clip: content-box;
+
+}
+
+
+
+::-webkit-scrollbar-thumb:hover{
+  border: 0.5rem solid transparent;
+  background-color: #8c8787;
+}
+
+
+.nav-body{
+  width: 100%;
+  height: 100%;
+  background-color:  #111;
+}
+
+nav {
+  width: 100%;
+  height: 84px;
+  background-color:  #111;
+}
+
+label.logo {
+  color: whitesmoke;
+  font-size: 44px;
+  font-family: "Black Ops One", cursive;
+  line-height: 80px;
+  padding: 0px 90px;
+  font-weight: bold;
+}
+
+.logo b {
+  padding: 0%;
+  color: rgb(254, 10, 10);
+  writing-mode: vertical-rl;
+  line-height: 0px;
+  
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+  font-family: "Poppins", cursive;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  animation: nav 5s;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  animation: nav 5s;
+}
+
+nav ul li #about-id-nav {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  animation: nav 5s;
+}
+@keyframes nav{
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 100%;
+
+  }
+}
+
+.linka i{
+  display: none;
+}
+
+#github-nav:hover{
+  color: rgb(244, 244, 248);
+}
+
+#lin-nav{
+  font-size: 26px;
+  color: white;
+}
+
+#lin-nav:hover{
+  font-size: 30px;
+}
+
+#nav-logo{
+  display: none;
+}
+nav .linka, #about-id-nav {
+  color: #333;
+  transition: all 0.4s;
+  font-size: 24px;
+  padding: 7px 50px;
+}
+
+#fa-backward{
+  display: none;
+}
+
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  
+}
+
+.checkbtn1{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#check1{
+  display: none;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  flex-direction: column;
+}
+
+main .main-items{
+  width: fit-content;
+  height: fit-content;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+}
+
+main p a{
+  font-size: 1rem;
+  color: rgb(250, 249, 249);
+  font-family: 'Poppins', cursive;
+}
+
+
+
+
+main h2 {
+  font-weight: 600;
+  font-size: 6em;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-family: 'Poppins', cursive;
+}
+
+main h2 span:last-child{
+  color: red;
+}
+
+
+
+
+
+
+main p {
+  font-size: 1.4rem;
+  font-family: 'Nexa', sans-serif;
+font-weight: bold;
+  position: relative;
+  width:85%;
+
+}
+
+.p1 , .p2{
+  font-size: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(250, 249, 249);
+  position: relative;
+  width:85%;
+}
+
+
+
+
+
+h1{
+  font-size: 3rem;  
+  color: rgb(255, 255, 255);
+} 
+
+ h1 b{
+  color: whitesmoke;
+  font-size: 49px;
+
+} 
+
+.heading-front-back-dev{
+  padding-top: 2rem;
+}
+
+
+
+.all-card1-container{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.all-card1s{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Lexend', sans-serif;
+  align-items: center;
+  background: transparent;
+  gap: 5rem;
+}
+
+
+.allcard1s{
+  width: 100%;
+  color: transparent;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.all-card1-container .all-card1s .heading-front-back-dev h1{
+  font-weight: bold;
+}
+
+.front-back-division{
+  color: rgb(255, 2, 2);
+}
+
+.card1{
+  width: 250px;
+  height: 350px;
+  background: transparent;
+  display: flex;
+  box-shadow: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  transition: all 0.4s 0.2s;
+  border: none;
+  border-radius: 0;
+}
+
+.card1:hover{
+  background-color: transparent;
+  height: 350px;
+  color: whitesmoke;
+  gap: 10px;
+
+}
+
+.image-all img{
+  width: 170px;
+  height: 170px;
+  filter: grayscale(10);
+  border-radius: 50%;
+}
+
+
+.image-all img:hover{
+  filter: grayscale(0);
+  transition: all 1.3s ease-in-out;
+  border-radius: 40%;
+}
+
+.card1 p{
+  margin: 5px;
+  width: 80%;
+  font-size: 12px;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.i-stack{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float:left;
+  gap: 2rem;
+}
+
+.card1 a {
+  font-size: 30px;
+  color: #fffafa;
+}
+
+.para-card1-last{
+  color: #ffffff;
+  margin: 0 5rem 1rem 5rem;
+}
+
+
+
+.about-more{
+  background-color: #111;
+  padding-top: 3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5rem;
+  margin-bottom: 10rem;
+}
+
+.about-more h3{
+  font-size: 3rem;
+  color: white;
+}
+
+.about-more h3 b{  
+  color: rgb(255, 0, 0);
+}
+
+.about-more-para-flex p {
+  width: 70%;
+  height: 100%;
+  font-size: 1rem;
+}
+
+#para-flex-first {
+  padding-left: 5rem;
+}
+
+.about-more-para-flex{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.para-sec-about{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: last baseline;
+}
+
+.para-sec-about p{
+  margin-right: 5rem;
+}
+
+.lastpage{
+  margin-top: 10rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:6rem;
+}
+
+.lastpage p{
+  color: white;
+  font-family: 'Lexend', sans-serif;
+
+}
+
+.lastpage h1{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.lastpage h4{
+  color: rgb(255, 0, 0);
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: lighter;
+}
+
+.lastpage a{
+  color: rgb(255, 0, 0);
+}
+
+.lastpage h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+.information-last{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#more-color{
+  color: #ffffff;
+  transition: color 1s;
+}
+
+
+#more-color:hover{
+  color: rgb(239, 77, 77);
+}
+
+.information-last p{
+  width: 70%;
+}
+
+.footer-last{
+  background-color: #111;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.6rem;
+}
+.footer-last a{
+  color: rgb(51, 51, 51);
+  font-size: 27px;
+  transition: all 0.8s ease;
+  animation-name : footer;
+}
+
+.footer-last a:hover{
+  color: #c5bebe;
+  }
+

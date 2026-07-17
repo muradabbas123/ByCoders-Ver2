@@ -1,0 +1,4 @@
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Passion One', cursive;
+font-family: 'Phudu', cursive;
+font-family: 'Black Ops One', cursive;
